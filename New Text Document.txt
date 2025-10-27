@@ -1,0 +1,24 @@
+
+#include <iostream>
+using namespace std;
+void printoddnumber (int a, int b)
+{
+    for (int i =a; i<=b; i++ )
+    {
+        if (i%2!=0)
+        {
+            cout<<i<<" ";
+        }
+    }
+}
+int main ()
+{
+ int i,j ;
+ cout<<"enter the start point:\n";
+ cin >>i;
+ cout<<"enter the end point :\n";
+ cin>>j;
+printoddnumber(i,j);
+
+return 0;
+}
